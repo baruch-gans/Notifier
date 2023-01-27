@@ -3,7 +3,7 @@ from datetime import datetime
 
 from brew_notifier_assignment.entities import Company
 from brew_notifier_assignment.entities import Event, CRAWLING_STATUSES, CompanyForWebinar, Webinar
-from brew_notifier_assignment.notifier_v2 import notify, EntityLogic
+from brew_notifier_assignment.notifier import notify, EntityLogic
 
 
 class TestBaseEntityLogic(unittest.TestCase):
